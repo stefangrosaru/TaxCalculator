@@ -78,7 +78,7 @@ body {
 }
 .result a{
     text-align: center;
-    width: auto;
+    width: fit-content;
     padding: 15px;
     background-color: #3274d6;
     border: 0;
