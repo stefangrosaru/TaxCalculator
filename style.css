@@ -53,7 +53,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.wraper p {
+.wraper p strong{
     text-align: center;
     color: black;
     font-size: 24px;
