@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <div class="result">
+    <div class="wrapper">
 <?php
 
     $gross_salary=$_POST['salary'];
@@ -75,12 +75,12 @@
     $final_ni=$national_insurance;
 
     $net_salary=$gross_salary-$tax_paid-$final_ni;
-    echo("<p><u>Net salary:</u></p>"."<p>Annually:  </p>£ ".round($net_salary,2)."<p>  Per month:  </p>£ ".round($net_salary/12,2)."<p>  Per week:  </p>£ ".round($net_salary/52,2)."\n");
-    echo("\r\n");
-    echo("<p><u>Tax paid:</u></p>"."<p>Annually:  </p>£ ".round($tax_paid,2)."<p>  Per month:  </p>£ ".round($tax_paid/12,2)."<p>  Per week:  </p>£ ".round($tax_paid/52,2)."\n");
-    echo("\r\n");
-    echo("<p><u>National insurance:</u></p>"."<p>Annually:  </p>£ ".round($final_ni,2)."<p>  Per month:  </p>£ ".round($final_ni/12,2)."<p>  Per week:  </p>£ ".round($final_ni/52,2)."\n");
-    echo("\r\n");
+    echo("<div><p>Net salary:"."Annually:  £ ".round($net_salary,2)."  Per month:  £ ".round($net_salary/12,2)."  Per week:  £ </p>".round($net_salary/52,2)."\n");
+
+    echo("<div><p>Tax paid:"."Annually:  £ ".round($tax_paid,2)."  Per month:  £ ".round($tax_paid/12,2)."  Per week:  £ </p>".round($tax_paid/52,2)."\n");
+
+    echo("<div><p>National insurance:"."Annually:  £ ".round($final_ni,2)."  Per month: £ ".round($final_ni/12,2)." Per week:  £ </p>".round($final_ni/52,2)."\n");
+
 ?>
 
 </div>
