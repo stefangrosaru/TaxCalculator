@@ -53,10 +53,15 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
 .wraper p {
     text-align: center;
     color: black;
     font-size: 24px;
     padding: 20px 0 20px 0;
+}
+.result{
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
 }

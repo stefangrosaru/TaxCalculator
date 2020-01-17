@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+    <div class="result">
     <div class="wraper">
 <?php
 
@@ -83,6 +84,7 @@
 
 ?>
 
+</div>
 </div>
 </body>
 </html>
