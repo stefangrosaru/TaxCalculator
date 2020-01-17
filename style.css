@@ -55,7 +55,7 @@ body {
     width: fit-content;
     background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-    margin: 100px auto;
+    margin: 100px auto 0px auto;
     padding: 15px;
 }
 .wraper p strong{
@@ -80,7 +80,6 @@ body {
     text-align: center;
     width: auto;
     padding: 15px;
-    margin-top: 20px;
     background-color: #3274d6;
     border: 0;
     cursor: pointer;
