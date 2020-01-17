@@ -75,11 +75,11 @@
     $final_ni=$national_insurance;
 
     $net_salary=$gross_salary-$tax_paid-$final_ni;
-    echo("<h2><u>Net salary:</u></h2>"."<h1>Annually:  </h1>£ ".round($net_salary,2)."<h1>  Per month:  </h1>£ ".round($net_salary/12,2)."<h1>  Per week:  </h1>£ ".round($net_salary/52,2)."\n");
+    echo("<p><u>Net salary:</u></p>"."<p>Annually:  </p>£ ".round($net_salary,2)."<p>  Per month:  </p>£ ".round($net_salary/12,2)."<p>  Per week:  </p>£ ".round($net_salary/52,2)."\n");
     echo("\r\n");
-    echo("<h2><u>Tax paid:</u></h2>"."<h1>Annually:  </h1>£ ".round($tax_paid,2)."<h1>  Per month:  </h1>£ ".round($tax_paid/12,2)."<h1>  Per week:  </h1>£ ".round($tax_paid/52,2)."\n");
+    echo("<p><u>Tax paid:</u></p>"."<p>Annually:  </p>£ ".round($tax_paid,2)."<p>  Per month:  </p>£ ".round($tax_paid/12,2)."<p>  Per week:  </p>£ ".round($tax_paid/52,2)."\n");
     echo("\r\n");
-    echo("<h2><u>National insurance:</u></h2>"."<h1>Annually:  </h1>£ ".round($final_ni,2)."<h1>  Per month:  </h1>£ ".round($final_ni/12,2)."<h1>  Per week:  </h1>£ ".round($final_ni/52,2)."\n");
+    echo("<p><u>National insurance:</u></p>"."<p>Annually:  </p>£ ".round($final_ni,2)."<p>  Per month:  </p>£ ".round($final_ni/12,2)."<p>  Per week:  </p>£ ".round($final_ni/52,2)."\n");
     echo("\r\n");
 ?>
 
