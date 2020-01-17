@@ -80,6 +80,7 @@ body {
 a{
     text-align: center;
     width: fit-content;
+    margin: 0px auto 0px auto;
     padding: 15px;
     background-color: #3274d6;
     border: 0;
