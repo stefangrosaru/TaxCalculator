@@ -85,7 +85,7 @@
 ?>
 
 </div>
-<button href="index.html">Back</button>
+<a href="index.html">Back</a>
 </div>
 </body>
 </html>
