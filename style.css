@@ -60,6 +60,8 @@ body {
     padding: 20px 0 20px 0;
 }
 .result{
+    display: flex;
+    flex-wrap: wrap;
     width: fit-content;
     background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
