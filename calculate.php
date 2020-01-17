@@ -86,6 +86,5 @@
 
 </div>
 </div>
-<a href="index.html">Back</a>
 </body>
 </html>
