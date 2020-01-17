@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <div class="wrapper">
+    <div class="wraper">
 <?php
 
     $gross_salary=$_POST['salary'];
