@@ -52,6 +52,11 @@ body {
 .wraper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    padding: 15px;
 }
 .wraper p strong{
     text-align: center;
@@ -62,11 +67,7 @@ body {
 .result{
     display: flex;
     flex-wrap: wrap;
-    width: fit-content;
-    background-color: #ffffff;
-    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-    margin: 100px auto;
-    padding: 15px;
+    
 }
 .result strong{
     text-align: center;
@@ -75,7 +76,7 @@ body {
     padding: 20px 0 20px 0;
     border-bottom: 1px solid #dee0e4;
 }
-a{
+.result a{
     width: 100%;
     padding: 15px;
     margin-top: 20px;
